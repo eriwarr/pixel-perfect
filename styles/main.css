@@ -101,13 +101,30 @@ a {
   padding-top: 50px;
   padding-bottom: 28px;
   position: relative;
+  width: 100%;
 
+}
+
+.left-container {
+  display: inline-block;
+  width: 751px;
+  float: left;
+
+}
+.right-container {
+  display: inline-block;
+  width: 361px;
+  clear: both;
+  margin-left: 30px;
+  position: relative;
 }
 
 figure{
   width: 750px;
   height: 473px;
   margin: 0;
+  display: inline-block;
+
 
 }
 
@@ -116,12 +133,14 @@ article {
   height: 448px;
   background-color: #FFFFFF;
   border: 1px solid #EAEAEA;
-  margin-bottom: 48px;
+  margin-bottom: 41px;
   padding-left: 40px;
   padding-right: 40px;
   text-align: center;
   padding-top: 20px;
   position: relative;
+  display: inline-block;
+  bottom: 8px;
 }
 
 
@@ -137,7 +156,7 @@ article {
 
 aside{
   border: 0;
-
+  margin-bottom: 39px;
 }
 
 
@@ -147,9 +166,11 @@ aside{
    height: 183px;
    width: 360px;
    background-color: white;
-   position: absolute;
+   margin-bottom: 0px; 
+   /* position: absolute;
    top: 50px;
-   right: 150px;
+   right: 150px; */
+
 }
 
 .second-aside {
@@ -157,11 +178,11 @@ aside{
    height: 325px;
    width: 361px;
    background-color: white;
-   position: absolute;
+   /* position: absolute;
    top: 233px;
-   right: 150px;
+   right: 150px; */
    border: 1px solid #E7E7E7;
-  text-align: center;
+   text-align: center;
 }
 
 .second-aside > h5 {
@@ -183,9 +204,9 @@ aside{
    height: 983px;
    width: 361px;
    background-color: white;
-   position: absolute;
+   /* position: absolute;
    top: 598px;
-   right: 150px;
+   right: 150px; */
    border: 1px solid #E7E7E7;
    padding-left: 30px;
    padding-right: 30px;
@@ -197,9 +218,9 @@ aside{
    height: 515px;
    width: 361px;
    background-color: white;
-   position: absolute;
+   /* position: absolute;
    top: 1620px;
-   right: 150px;
+   right: 150px; */
    border: 1px solid #E7E7E7;
 
 }
@@ -209,9 +230,9 @@ aside{
    height: 595px;
    width: 361px;
    background-color: white;
-   position: absolute;
+   /* position: absolute;
    top: 2174px;
-   right: 150px;
+   right: 150px; */
    border: 1px solid #E7E7E7;
 
 }
@@ -223,13 +244,11 @@ aside{
 }
 
 
-
-
  footer {
   height: 62px;
   width: 100%;
   background-color: #222222;
-
+  clear: both;
 }
 
 h2 {
@@ -255,7 +274,7 @@ h1 {
   margin: 0;
   padding:0;
   height: 190px;
-
+  clear: both;
 }
 
 
@@ -297,9 +316,6 @@ border-top: 3px;
   width: 300px;
   height: 200px;
 }
-
-
-
 
 
 .third {
@@ -472,15 +488,20 @@ div {
   color: #777777;
 }
 
+.hhhh {
+  margin: 0;
 
-.hhhh > img {
+}
+
+.second-aside > img {
   width: 182px;
   height: 182px;
   border-radius: 50%;
+
   position: absolute;
-  top: 150px;
-  right: 240px;
-  z-index: 1;
+  top: 100px;
+  right: 91px;
+  z-index: 2;
   border: solid 7px white;
 }
 

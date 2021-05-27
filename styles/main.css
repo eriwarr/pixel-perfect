@@ -552,13 +552,32 @@ border-radius: 50%;
   color: #CA5C3C;;
 }
 
-@media (max-width: 900px) {
+ @media (max-width: 900px) {
   figure, article {
     width: 600px;
   }
   .first-aside, .second-aside,.third-aside,.fourth-aside,.fifth-aside {
     width: 600px;
   }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 50px;
+  }
+
+ figure, article {
+   width: 400px;
+   height: auto;
+ }
+ .first-aside, .second-aside,.third-aside,.fourth-aside,.fifth-aside {
+   width: 400px;
+   clear: both;
+ }
+nav > ul > li {
+  visibility: hidden;
+}
+
 }
 
 @media (max-width: 1290px) {

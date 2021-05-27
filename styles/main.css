@@ -7,6 +7,7 @@
 body {
   background-color: #F5F4F4;
   margin: 0;
+  height: 100vh;
 }
 
 img {
@@ -166,7 +167,7 @@ aside{
    height: 183px;
    width: 360px;
    background-color: white;
-   margin-bottom: 0px; 
+   margin-bottom: 0px;
    /* position: absolute;
    top: 50px;
    right: 150px; */
@@ -245,11 +246,14 @@ aside{
 
 
  footer {
-  height: 62px;
+  height: 80px;
   width: 100%;
   background-color: #222222;
-  clear: both;
+  color: white;
+  text-align: center;
+
 }
+
 
 h2 {
   font-family: 'Lato';
@@ -275,6 +279,7 @@ h1 {
   padding:0;
   height: 190px;
   clear: both;
+
 }
 
 
@@ -547,10 +552,22 @@ border-radius: 50%;
   color: #CA5C3C;;
 }
 
+@media (max-width: 900px) {
+  figure, article {
+    width: 600px;
+  }
+  .first-aside, .second-aside,.third-aside,.fourth-aside,.fifth-aside {
+    width: 600px;
+  }
+}
 
-
-@media screen and (min-width: 600px) {
-    .container {
-      grid-template-columns: 2fr 1fr;
-    }
+@media (max-width: 1290px) {
+  footer {
+    position: absolute;
+    top: 7900px;
+  }
+  .fat-footer {
+    position: absolute;
+    top: 7750px;
+  }
 }
